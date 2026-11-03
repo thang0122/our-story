@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14243a">
+  <meta name="description" content="OUR STORY – prototype boardgame đồng hành giữa trẻ tự kỷ và phụ huynh. Khám phá bộ thẻ, bàn cờ, luật chơi và trải nghiệm thử.">
+  <title>OUR STORY | Cùng nhau viết nên câu chuyện</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=2">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Bỏ qua điều hướng</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#tong-quan" aria-label="OUR STORY – Trang tổng quan">
+        <span class="brand-mark" aria-hidden="true">O<span>+</span></span>
+        <span class="brand-copy"><strong>OUR STORY</strong><small>CÙNG NHAU VIẾT NÊN CÂU CHUYỆN</small></span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">Menu <span aria-hidden="true">☰</span></button>
+      <nav class="main-nav" id="mainNav" aria-label="Điều hướng chính">
+        <button class="nav-link active" data-page="tong-quan">Tổng quan</button>
+        <button class="nav-link" data-page="bo-the">Bộ thẻ <span class="nav-count">44</span></button>
+        <button class="nav-link" data-page="ban-co">Bàn cờ</button>
+        <button class="nav-link" data-page="choi-thu">Chơi thử</button>
+        <button class="nav-link" data-page="hanh-trinh">Hành trình</button>
+        <button class="nav-link" data-page="luat-choi">Luật chơi</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- OVERVIEW -->
+    <section class="page active" id="page-tong-quan" aria-labelledby="overview-title">
+      <div class="hero wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-dot"></span> BOARDGAME HỢP TÁC · BẢN Ý TƯỞNG</div>
+          <h1 id="overview-title">Mỗi người một cách thể hiện.<br><em>Cùng nhau tạo nên</em> một câu chuyện.</h1>
+          <p class="hero-lead">OUR STORY là trò chơi đồng hành để trẻ và phụ huynh cùng khám phá tình huống, thể hiện nhu cầu, lựa chọn cách phản hồi và hiểu nhau hơn qua hoạt động chơi.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary" data-go="choi-thu">Bắt đầu chơi thử <span aria-hidden="true">→</span></button>
+            <button class="btn btn-secondary" data-go="bo-the">Khám phá 44 lá thẻ</button>
+          </div>
+          <div class="hero-note"><span class="note-icon">✳</span><span>Không thi đấu, không chấm điểm đúng/sai. Trẻ có quyền lựa chọn, nghỉ hoặc dừng bất cứ lúc nào.</span></div>
+        </div>
+        <div class="hero-art" aria-label="Minh họa khái niệm trò chơi bằng các thẻ nội dung">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="floating-card card-place"><small>ĐỊA ĐIỂM</small><strong>CÔNG VIÊN</strong><span>01 / 06</span></div>
+          <div class="floating-card card-need"><small>NHU CẦU</small><strong>CON MUỐN NGHỈ</strong><span>01 / 08</span></div>
+          <div class="floating-card card-action"><small>HÀNH ĐỘNG</small><strong>TÌM NƠI YÊN TĨNH</strong><span>03 / 08</span></div>
+          <div class="hero-path"><span>KHÁM PHÁ</span><b>→</b><span>THỂ HIỆN</span><b>→</b><span>KẾT NỐI</span></div>
+          <div class="hero-stamp">CÙNG<br>CHƠI</div>
+        </div>
+      </div>
+
+      <div class="wrap stats-row" aria-label="Thông tin prototype">
+        <div class="stat"><strong>44</strong><span>lá thẻ nội dung</span></div>
+        <div class="stat"><strong>20</strong><span>ô trên hành trình</span></div>
+        <div class="stat"><strong>2</strong><span>người chơi chính</span></div>
+        <div class="stat"><strong>15–25'</strong><span>thời lượng dự kiến</span></div>
+      </div>
+
+      <div class="wrap section-block">
+        <div class="section-heading">
+          <div><div class="eyebrow">CẤU TRÚC TRÒ CHƠI</div><h2>Một vòng chơi gồm những gì?</h2></div>
+          <p>Từng nhóm thẻ đảm nhận một vai trò, tạo thành một quy trình dễ quan sát và dễ thử nghiệm.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card feature-blue"><span class="feature-number">01</span><div class="feature-icon">⌂</div><h3>Địa điểm</h3><p>Đưa hai người vào một bối cảnh quen thuộc như nhà, trường học hay công viên.</p><button class="text-link" data-go="bo-the" data-filter="location">Xem thẻ địa điểm →</button></article>
+          <article class="feature-card feature-coral"><span class="feature-number">02</span><div class="feature-icon">◇</div><h3>Tình huống</h3><p>Gợi ra một sự việc để trẻ có cơ hội thể hiện ý muốn hoặc phản ứng của mình.</p><button class="text-link" data-go="bo-the" data-filter="situation">Xem thẻ tình huống →</button></article>
+          <article class="feature-card feature-green"><span class="feature-number">03</span><div class="feature-icon">♡</div><h3>Nhu cầu & giao tiếp</h3><p>Cho trẻ nhiều cách thể hiện: lời nói, chỉ tay, hình ảnh, thẻ hoặc AAC.</p><button class="text-link" data-go="bo-the" data-filter="need">Xem thẻ nhu cầu →</button></article>
+          <article class="feature-card feature-lilac"><span class="feature-number">04</span><div class="feature-icon">＋</div><h3>Hành động & nghỉ</h3><p>Cùng chọn bước tiếp theo và luôn giữ quyền tạm dừng hoặc kết thúc.</p><button class="text-link" data-go="bo-the" data-filter="action">Xem thẻ hành động →</button></article>
+        </div>
+      </div>
+
+      <div class="wrap two-column section-block">
+        <div class="dark-panel">
+          <div class="eyebrow light">Ý TƯỞNG CỐT LÕI</div>
+          <h2>Không phải trẻ đi theo luật của trò chơi. Trò chơi cần điều chỉnh theo trẻ.</h2>
+          <p>Phụ huynh không đóng vai giám khảo. Hai người cùng chơi, trong đó phụ huynh quan sát, chờ đợi, phản hồi và tôn trọng cách trẻ thể hiện.</p>
+          <button class="btn btn-light" data-go="luat-choi">Đọc nguyên tắc chơi <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="outcome-panel">
+          <div class="eyebrow">ĐÍCH ĐẾN</div>
+          <h2>Một câu chuyện chung, không phải một bài kiểm tra.</h2>
+          <div class="outcome-steps"><span>Trẻ thể hiện</span><b>+</b><span>Phụ huynh lắng nghe</span><b>+</b><span>Cùng lựa chọn</span></div>
+          <p>Cuối hành trình, hai người nhìn lại điều đã cùng trải nghiệm và điều có thể làm khác đi ở lần sau.</p>
+          <button class="text-link" data-go="hanh-trinh">Xem hành trình và đích đến →</button>
+        </div>
+      </div>
+      <div class="wrap disclaimer"><strong>Lưu ý về mục đích sử dụng:</strong> OUR STORY hiện là ý tưởng/prototype hỗ trợ hoạt động chơi, giao tiếp và tương tác giữa trẻ với phụ huynh. Đây không phải công cụ chẩn đoán hay điều trị tự kỷ, không thay thế tư vấn hoặc can thiệp chuyên môn.</div>
+    </section>
+
+    <!-- CARD LIBRARY -->
+    <section class="page" id="page-bo-the" aria-labelledby="cards-title" hidden>
+      <div class="page-hero wrap">
+        <div class="eyebrow">THƯ VIỆN NỘI DUNG</div>
+        <h1 id="cards-title">44 lá thẻ, 6 vai trò.</h1>
+        <p>Mặt trước ưu tiên từ hoặc cụm từ ngắn. Phần mô tả bên dưới giải thích cách sử dụng trong prototype; không phải toàn bộ nội dung cần in lên lá thẻ.</p>
+        <div class="inline-meta"><span>44 thẻ đề xuất</span><span>·</span><span>6 nhóm</span><span>·</span><span>Có thể tùy chỉnh</span></div>
+      </div>
+      <div class="wrap card-library section-block">
+        <div class="library-toolbar">
+          <div class="filter-list" id="cardFilters" aria-label="Lọc nhóm thẻ">
+            <button class="filter-chip active" data-filter="all">Tất cả <span>44</span></button>
+            <button class="filter-chip" data-filter="location">Địa điểm <span>6</span></button>
+            <button class="filter-chip" data-filter="situation">Tình huống <span>8</span></button>
+            <button class="filter-chip" data-filter="need">Nhu cầu <span>8</span></button>
+            <button class="filter-chip" data-filter="communication">Giao tiếp <span>8</span></button>
+            <button class="filter-chip" data-filter="action">Hành động <span>8</span></button>
+            <button class="filter-chip" data-filter="rest">Nghỉ ngơi <span>6</span></button>
+          </div>
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="cardSearch" type="search" placeholder="Tìm nội dung thẻ..." autocomplete="off"><kbd>/</kbd></label>
+        </div>
+        <div class="library-summary" id="librarySummary" aria-live="polite">Đang hiển thị 44 lá thẻ</div>
+        <div class="card-grid" id="cardGrid"></div>
+        <div class="empty-state" id="cardEmpty" hidden>Không tìm thấy lá thẻ phù hợp. Thử từ khóa khác nhé.</div>
+      </div>
+      <div class="wrap section-block design-note"><strong>Ghi chú thiết kế:</strong> Những câu như “CON MUỐN NGHỈ” là nội dung gợi ý, không phải lời mà trẻ bắt buộc phải lặp lại. Nhóm cần thay từ ngữ, biểu tượng và phương thức giao tiếp theo khả năng, sở thích và hệ thống AAC đang dùng của từng trẻ.</div>
+    </section>
+
+    <!-- BOARD -->
+    <section class="page" id="page-ban-co" aria-labelledby="board-title" hidden>
+      <div class="page-hero wrap">
+        <div class="eyebrow">BẢN ĐỒ HÀNH TRÌNH</div>
+        <h1 id="board-title">20 ô, một hành trình linh hoạt.</h1>
+        <p>Bàn cờ là khung gợi ý trình tự. Không bắt buộc trẻ đi đủ mọi ô; có thể bỏ qua, đổi thứ tự, nghỉ hoặc kết thúc khi cần.</p>
+      </div>
+      <div class="wrap board-layout section-block">
+        <div class="board-main">
+          <div class="board-topline"><span class="board-label">ĐƯỜNG ĐI OUR STORY</span><span class="board-count">20 ĐIỂM DỪNG</span></div>
+          <div class="board-track" id="boardTrack" aria-label="Bàn cờ gồm 20 ô"></div>
+          <div class="board-legend">
+            <span><i class="legend-dot dot-place"></i> Địa điểm</span><span><i class="legend-dot dot-situation"></i> Tình huống</span><span><i class="legend-dot dot-need"></i> Nhu cầu / giao tiếp</span><span><i class="legend-dot dot-action"></i> Hành động</span><span><i class="legend-dot dot-rest"></i> Nghỉ ngơi</span>
+          </div>
+        </div>
+        <aside class="board-detail" id="boardDetail" aria-live="polite">
+          <div class="detail-kicker">CHỌN MỘT Ô</div><h2>Khám phá ý nghĩa</h2><p>Nhấn vào một ô trên bàn cờ để xem người chơi sẽ làm gì tại điểm dừng đó.</p>
+        </aside>
+      </div>
+      <div class="wrap section-block journey-ribbon">
+        <div><span>01</span><strong>Khởi hành</strong><small>Làm quen và chọn cách chơi</small></div><b>→</b>
+        <div><span>02</span><strong>Khám phá</strong><small>Địa điểm và tình huống</small></div><b>→</b>
+        <div><span>03</span><strong>Thể hiện</strong><small>Nhu cầu và cách giao tiếp</small></div><b>→</b>
+        <div><span>04</span><strong>Kết nối</strong><small>Cùng chọn và nhìn lại</small></div>
+      </div>
+    </section>
+
+    <!-- PLAY -->
+    <section class="page" id="page-choi-thu" aria-labelledby="play-title" hidden>
+      <div class="page-hero wrap play-hero">
+        <div><div class="eyebrow">MÔ PHỎNG TƯƠNG TÁC</div><h1 id="play-title">Cùng thử một hành trình.</h1><p>Đây là bản mô phỏng để nhóm hình dung cách chơi. Các lựa chọn được lưu tạm trong trình duyệt và không gửi lên máy chủ.</p></div>
+        <div class="play-status"><span class="status-dot"></span> PROTOTYPE · CHƠI THỬ</div>
+      </div>
+      <div class="wrap play-layout section-block">
+        <div class="play-board-panel">
+          <div class="play-progress-head"><div><span class="detail-kicker">TIẾN TRÌNH</span><strong id="progressText">Chưa bắt đầu</strong></div><span id="progressPercent">0%</span></div>
+          <div class="progress-bar"><span id="progressBar"></span></div>
+          <div class="mini-track" id="miniTrack" aria-label="Tiến trình trên bàn cờ"></div>
+          <div class="play-side-note"><span class="note-icon">♡</span><span>Không cần trả lời đúng. Có thể chọn “Bỏ qua ô này”, “Nghỉ” hoặc kết thúc bất cứ lúc nào.</span></div>
+        </div>
+        <div class="play-stage" id="playStage" aria-live="polite">
+          <div class="stage-welcome">
+            <div class="stage-symbol">OUR<br>STORY</div>
+            <div class="eyebrow">SẴN SÀNG CHƯA?</div>
+            <h2>Bắt đầu bằng một lựa chọn nhỏ.</h2>
+            <p>Hai người chơi cùng đi qua các điểm dừng. Trẻ được chọn cách tham gia; phụ huynh đồng hành và điều chỉnh nhịp độ.</p>
+            <div class="start-options"><label for="childLabel">Tên gọi người chơi nhỏ tuổi <span>(không bắt buộc)</span></label><input id="childLabel" maxlength="24" placeholder="Ví dụ: Bạn nhỏ" value="Bạn nhỏ"></div>
+            <button class="btn btn-primary btn-wide" id="startGame">Bắt đầu hành trình <span aria-hidden="true">→</span></button>
+          </div>
+        </div>
+      </div>
+      <div class="wrap section-block play-footnote"><strong>Đây là mô phỏng quy trình, không phải đánh giá trẻ.</strong> Việc trẻ không chọn thẻ, không nói hoặc muốn dừng không được xem là thất bại.</div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="page" id="page-hanh-trinh" aria-labelledby="journey-title" hidden>
+      <div class="page-hero wrap"><div class="eyebrow">Ý NGHĨA TỪNG CHẶNG</div><h1 id="journey-title">Mỗi chặng mở ra một cơ hội.</h1><p>Không khẳng định mỗi lượt chơi tạo ra kết quả điều trị. Đây là những cơ hội thực hành mà trò chơi mong muốn tạo ra trong tương tác tự nhiên giữa trẻ và phụ huynh.</p></div>
+      <div class="wrap section-block journey-list">
+        <article class="journey-item"><div class="journey-index">01</div><div class="journey-content"><div class="eyebrow">CHẶNG 1 · KHỞI HÀNH</div><h2>Làm quen và tạo cảm giác an toàn</h2><p><strong>Trải nghiệm:</strong> Hai người chọn quân cờ, xem trước các nhóm thẻ và thống nhất tín hiệu nghỉ hoặc dừng.</p><p><strong>Cơ hội hỗ trợ:</strong> Giúp trẻ biết điều gì sẽ diễn ra, có lựa chọn tham gia và biết mình có thể dừng. Có thể dùng lịch trực quan hoặc giới thiệu trước trình tự.</p><div class="outcome-tag">Tạo sự chủ động và tính dễ dự đoán</div></div></article>
+        <article class="journey-item"><div class="journey-index">02</div><div class="journey-content"><div class="eyebrow">CHẶNG 2 · KHÁM PHÁ</div><h2>Địa điểm và tình huống quen thuộc</h2><p><strong>Trải nghiệm:</strong> Chọn một địa điểm như nhà, trường học, siêu thị hoặc công viên; sau đó cùng xem một tình huống có thể xảy ra.</p><p><strong>Cơ hội hỗ trợ:</strong> Tạo bối cảnh để chia sẻ sở thích, làm quen với trình tự hoặc trao đổi về những thay đổi. Trẻ không cần phải kể lại hay giải thích bằng lời.</p><div class="outcome-tag">Chia sẻ chú ý và khám phá bối cảnh</div></div></article>
+        <article class="journey-item"><div class="journey-index">03</div><div class="journey-content"><div class="eyebrow">CHẶNG 3 · THỂ HIỆN</div><h2>Nhu cầu và phương thức giao tiếp</h2><p><strong>Trải nghiệm:</strong> Trẻ có thể chọn thẻ nhu cầu, nói, chỉ tay, dùng hình ảnh, cử chỉ, AAC hoặc không trả lời.</p><p><strong>Cơ hội hỗ trợ:</strong> Tạo thêm cơ hội giao tiếp chức năng để trẻ thể hiện mong muốn, từ chối, yêu cầu trợ giúp hoặc xin nghỉ. Phụ huynh học cách chờ và phản hồi.</p><div class="outcome-tag">Tăng cơ hội thể hiện nhu cầu theo cách riêng</div></div></article>
+        <article class="journey-item"><div class="journey-index">04</div><div class="journey-content"><div class="eyebrow">CHẶNG 4 · CÙNG LỰA CHỌN</div><h2>Phản hồi và quyết định bước tiếp theo</h2><p><strong>Trải nghiệm:</strong> Hai người xem các thẻ hành động và chọn phương án phù hợp, chẳng hạn tiếp tục, đổi hoạt động, tìm nơi yên tĩnh hoặc nhờ giúp đỡ.</p><p><strong>Cơ hội hỗ trợ:</strong> Thực hành luân phiên, lựa chọn và giải quyết tình huống cùng nhau. Phụ huynh điều chỉnh môi trường thay vì chỉ yêu cầu trẻ thích nghi.</p><div class="outcome-tag">Tương tác qua lại và phối hợp</div></div></article>
+        <article class="journey-item"><div class="journey-index">05</div><div class="journey-content"><div class="eyebrow">CHẶNG 5 · NGHỈ VÀ NHÌN LẠI</div><h2>Tôn trọng giới hạn, tạo câu chuyện chung</h2><p><strong>Trải nghiệm:</strong> Trẻ có thể nghỉ hoặc kết thúc. Nếu muốn, hai người ghép các lựa chọn đã có thành một câu chuyện ngắn và cùng nhìn lại.</p><p><strong>Cơ hội hỗ trợ:</strong> Ghi nhận sở thích, cách trẻ giao tiếp và điều phụ huynh có thể điều chỉnh ở lần sau. Không yêu cầu trẻ phải nhớ hoặc kể lại.</p><div class="outcome-tag">Củng cố sự thấu hiểu và kết nối gia đình</div></div></article>
+      </div>
+      <div class="wrap destination section-block"><div class="destination-mark">★</div><div><div class="eyebrow">ĐÍCH ĐẾN OUR STORY</div><h2>Không phải “đi hết bàn cờ”.<br>Đích đến là hiểu nhau hơn.</h2><p>Kết thúc tốt đẹp có thể là trẻ đã chọn được một hoạt động, phụ huynh nhận ra một tín hiệu của con, hai người cùng nghỉ đúng lúc hoặc đơn giản là đã có một khoảng thời gian chơi tự nguyện.</p></div></div>
+      <div class="wrap section-block disclaimer"><strong>Giới hạn bằng chứng:</strong> Những lợi ích trên là mục tiêu thiết kế/cơ hội thực hành, không phải kết quả lâm sàng đã được xác nhận cho sản phẩm OUR STORY. Muốn đánh giá hiệu quả cần có chuyên gia phù hợp, quy trình thử nghiệm và tiêu chí đánh giá rõ ràng.</div>
+    </section>
+
+    <!-- RULES -->
+    <section class="page" id="page-luat-choi" aria-labelledby="rules-title" hidden>
+      <div class="page-hero wrap"><div class="eyebrow">HƯỚNG DẪN SỬ DỤNG</div><h1 id="rules-title">Luật chơi để cùng đồng hành.</h1><p>Luật được thiết kế linh hoạt. Người lớn chịu trách nhiệm điều chỉnh trò chơi để phù hợp với trẻ, không phải yêu cầu trẻ tuân theo mọi quy tắc.</p></div>
+      <div class="wrap section-block rules-layout">
+        <div class="rules-main">
+          <article class="rule-block"><div class="rule-number">01</div><div><h2>Chuẩn bị</h2><ul><li>Hai người chơi chính: trẻ và phụ huynh/người chăm sóc.</li><li>Đặt bàn cờ, quân cờ và sáu nhóm thẻ trong tầm nhìn, tầm với phù hợp.</li><li>Chọn thời lượng ngắn, môi trường ít gây khó chịu và phương thức giao tiếp trẻ đang quen dùng.</li><li>Giới thiệu trước trình tự bằng lời nói, hình ảnh hoặc lịch trực quan nếu hữu ích.</li></ul></div></article>
+          <article class="rule-block"><div class="rule-number">02</div><div><h2>Bắt đầu hành trình</h2><ul><li>Hai người chọn quân cờ và vị trí bắt đầu.</li><li>Đi theo thứ tự các ô hoặc chọn chặng phù hợp; không bắt buộc dùng xúc xắc.</li><li>Tại ô địa điểm, cùng chọn một thẻ địa điểm. Tại ô tình huống, đọc hoặc giới thiệu tình huống bằng cách trẻ dễ tiếp nhận.</li></ul></div></article>
+          <article class="rule-block"><div class="rule-number">03</div><div><h2>Thể hiện và lắng nghe</h2><ul><li>Đặt thẻ nhu cầu và thẻ giao tiếp ở nơi trẻ có thể nhìn/chọn.</li><li>Chờ đủ thời gian; không hỏi dồn, không yêu cầu trẻ lặp lại.</li><li>Chấp nhận lời nói, cử chỉ, ánh mắt, chỉ tay, hình ảnh, AAC hoặc tín hiệu cá nhân đã biết.</li><li>Nếu chưa rõ ý trẻ, phụ huynh có thể xác nhận nhẹ nhàng hoặc đưa ra ít lựa chọn hơn.</li></ul></div></article>
+          <article class="rule-block"><div class="rule-number">04</div><div><h2>Cùng chọn hành động</h2><ul><li>Hai người xem các phương án hành động và chọn bước tiếp theo phù hợp.</li><li>Phụ huynh hỗ trợ thực hiện lựa chọn; không ép trẻ chọn phương án mà người lớn thích.</li><li>Nếu trẻ từ chối hoặc có dấu hiệu khó chịu, ưu tiên dừng hoạt động và điều chỉnh môi trường.</li></ul></div></article>
+          <article class="rule-block"><div class="rule-number">05</div><div><h2>Kết thúc và nhìn lại</h2><ul><li>Kết thúc khi đến ô cuối hoặc bất cứ lúc nào trẻ/người chơi muốn dừng.</li><li>Nếu phù hợp, hai người ghép các thẻ đã chọn thành câu chuyện ngắn.</li><li>Phụ huynh ghi lại điều đã quan sát và điều muốn điều chỉnh, không chấm điểm trẻ.</li></ul></div></article>
+        </div>
+        <aside class="rules-aside">
+          <div class="aside-card"><div class="eyebrow">4 NGUYÊN TẮC KHÔNG THỎA HIỆP</div><h3>Quyền của trẻ luôn được ưu tiên.</h3><ol class="principle-list"><li><b>Được chọn</b><span>Trẻ có thể chọn hoặc không chọn.</span></li><li><b>Được từ chối</b><span>Không ép nói, ép chơi hoặc ép hoàn thành.</span></li><li><b>Được nghỉ</b><span>Thẻ nghỉ dùng bất cứ lúc nào.</span></li><li><b>Được là chính mình</b><span>Không thưởng/phạt vì cách giao tiếp hay biểu hiện tự kỷ.</span></li></ol></div>
+          <div class="aside-card soft-card"><div class="eyebrow">THỜI LƯỢNG THAM KHẢO</div><div class="big-time">15–25'</div><p>Chỉ là mốc thử nghiệm. Có thể chơi ngắn hơn, chia thành nhiều lượt hoặc dừng sớm theo trạng thái của trẻ.</p></div>
+          <div class="aside-card warning-card"><strong>Không phải liệu pháp điều trị</strong><p>Không dùng trò chơi để ép trẻ giao tiếp, kiểm tra khả năng, kiểm soát hành vi hoặc thay thế kế hoạch hỗ trợ từ chuyên gia.</p></div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner"><a class="brand footer-brand" href="#tong-quan"><span class="brand-mark">O<span>+</span></span><span class="brand-copy"><strong>OUR STORY</strong><small>CÙNG NHAU VIẾT NÊN CÂU CHUYỆN</small></span></a><p>Prototype ý tưởng · Nội dung có thể tiếp tục điều chỉnh qua khảo sát và thử nghiệm.</p><span class="footer-version">CONCEPT 0.1</span></div>
+  </footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
